@@ -408,7 +408,6 @@ input{
   border: 0;
   padding: 1.6rem;
   outline: 0;
-  cursor: pointer;
 }
 .header_search button[type="submit"]:hover{
   background-color: #3acf87;
@@ -453,3 +452,70 @@ nav{
   background-color: #505050;
 }
 
+
+
+/* ======================== */
+/* URBAN SECTION */
+/* ======================== */
+
+
+.section_urban{
+  background: url(../img/trizzy.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #505050;
+}
+.urban_div{
+  align-items: flex-end;
+}
+.urban_h2{
+  font-size: 3.8rem;
+  font-weight: var(--light);
+}
+.urban_h2 span{
+  font-size: 6.5rem;
+  font-weight: var(--bold);
+}
+.urban_btn{
+  font-size: 1.8rem;
+  font-weight: var(--bold);
+  padding: 1.5rem 3.2rem;
+  background-color: #fff;
+  border: 0;
+  outline: none;
+}
+.urban_btn:hover{
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+.urban_btn:active{
+  transform: scale(0.98);
+}
+.just_mr{
+  margin-right: 10rem;
+  margin-top: 15rem;
+  margin-bottom: 14rem;
+}
+
+
+/* ======================== */
+/* PRODUCT SECTION */
+/* ======================== */
+
+.product_section{
+  background-color: #fff;
+}
+.top_logo_section{
+  position: relative;
+}
+.top_product_title{
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  color: #fff;  
+  font-size: 2rem;  
+  font-weight: var(--bold);
+}
