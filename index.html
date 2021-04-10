@@ -32,36 +32,45 @@
   <!-- START HEADER SECTION -->
 
   <header>
-    <div class="header_top">
-      <div>
-        <p class="header_top_p"><i class="fas fa-phone"></i> (564) 123 4567</p>
-        <p class="header_top_p"><i class="fas fa-envelope"></i> mail@example.com</p>
-        <p class="header_top_p">English</p>
-        <p class="header_top_p">USD</p>
-      </div>
-      <div>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-dribbble"></i>
-        <i class="fab fa-pinterest"></i>
-        <i class="fab fa-google-plus-g"></i>
+    <div class="header_bg">
+      <div class="container header_top flex justify-between">
+        <div class="flex top1">
+          <p class="header_top_p"><i class="fas fa-phone icon_left_pad"></i> (564) 123 4567</p>
+          <p class="header_top_p"><i class="fas fa-envelope icon_left_pad"></i> mail@example.com</p>
+          <p class="header_top_p">English</p>
+          <p class="header_top_p">USD</p>
+        </div>
+        <div class="flex top2">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-dribbble"></i>
+          <i class="fab fa-google-plus-g"></i>
+          <i class="fab fa-pinterest"></i>
+        </div>
       </div>
     </div>
-    <div class="header_bottom">
-      <div class="header_bottom_up">
+    <div class="header_bottom container">
+      <div class="header_bottom_up flex justify-between align-center">
         <div class="header_logo">
           <img src="resources/img/logo.png" alt="logo" class="img-fluid">
         </div>
-        <div>
-          <div class="header_search">
-            <form action="#" method="POST">
-              <input type="text" name="name" placeholder="Enter your search">
-              <input type="submit" value="submit">
-            </form>
-          </div>
-          <div class="header_shopping">
-            <span class="shop_icon"></span>
-            <span>$178.00</span>
+        <div class="header_bottom_item">
+          <ul class="flex list-unstyle header_bottom_li">
+            <li class="pr-3">Checkout</li>
+            <li>My Account</li>
+          </ul>
+          <div class="flex">
+
+            <div class="header_search">
+              <form action="#" method="POST">
+                <input type="text" name="name" placeholder="search">
+                <button type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+            <div class="ml-2 header_shopping flex">
+              <span class="shop_icon p-1 my-auto text-white"><i class="fas fa-shopping-cart"></i></span>
+              <span class="p-1 text-white my-auto">$178.00</span>
+            </div>
           </div>
         </div>
       </div>
@@ -188,7 +197,7 @@
         <div class="top_product_des">
           <p>Brogue Boots in Leather</p>
           <p>$99.00</p>
-          <p>&#9733;	 &#9733;	 &#9733; &#9733; &#9733;	</p>
+          <p>&#9733; &#9733; &#9733; &#9733; &#9733; </p>
         </div>
       </div>
 
@@ -197,7 +206,7 @@
         <div class="top_product_des">
           <p>Slim Jeans With Blue Tint</p>
           <p>$79.00</p>
-          <p>&#9733;	 &#9733;	 &#9733; &#9733; &#9733;	</p>
+          <p>&#9733; &#9733; &#9733; &#9733; &#9733; </p>
         </div>
       </div>
       <div class="top_product_category">
@@ -205,7 +214,7 @@
         <div class="top_product_des">
           <p>New Look Fairisle Scarf</p>
           <p>$19.00</p>
-          <p>&#9733;	 &#9733;	 &#9733; &#9733; &#9733;	</p>
+          <p>&#9733; &#9733; &#9733; &#9733; &#9733; </p>
         </div>
       </div>
     </div>
@@ -222,14 +231,14 @@
         <div class="top_product_logo"><img src="resources/img/pro_cat_8.png" alt="Product" class="imgfluid"></div>
         <div class="top_product_des">
           <p>Smart Converse</p>
-          <p>$99.00	<span>$79.00</span></p>
+          <p>$99.00 <span>$79.00</span></p>
         </div>
       </div>
       <div class="top_product_category">
         <div class="top_product_logo"><img src="resources/img/pro_cat_9.png" alt="Product" class="imgfluid"></div>
         <div class="top_product_des">
           <p>Wool Two-Piece Suit</p>
-          <p>$499.00  <span>$399.00</span></p>
+          <p>$499.00 <span>$399.00</span></p>
         </div>
       </div>
     </div>
@@ -294,7 +303,8 @@
         <div class="footer_logo">
           <img src="resources/img/footer_logo.png" alt="Logo" class="img-fluid">
         </div>
-        <p>Nulla facilisis feugiat magna, ut molestie metus hendrerit vitae. Vivamus tristique lectus at varius rutrum. Integer lobortis mauris non consectetur eleifend.</p>
+        <p>Nulla facilisis feugiat magna, ut molestie metus hendrerit vitae. Vivamus tristique lectus at varius rutrum.
+          Integer lobortis mauris non consectetur eleifend.</p>
       </div>
       <div class="footer_item">
         <h3>CUSTOMER SERVICE</h3>
@@ -316,7 +326,8 @@
       </div>
       <div class="footer_item">
         <h3>NEWS LETTER</h3>
-        <p>Sign up to receive email updates on new product announcements, gift ideas, special promotions, sales and more.</p>
+        <p>Sign up to receive email updates on new product announcements, gift ideas, special promotions, sales and
+          more.</p>
         <div class="footer_form">
           <form action="#">
             <input type="email" name="email" placeholder="mail@example.com">
