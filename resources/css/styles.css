@@ -426,3 +426,30 @@ input{
   padding-top: 1.5rem;
 }
 
+/* ======================== */
+/* NAVIGATION SECTION */
+/* ======================== */
+
+nav{
+  background-color: #606060;
+}
+
+.navbar{
+  font-size: 1.8rem;
+}
+
+.nav_a{
+  color: #fff;
+  text-decoration: none;
+}
+.nav_list{
+  padding: 2rem 3rem;
+}
+.nav_list:nth-child(2){
+  /* padding-left: 0; */
+
+}
+.nav_list:first-child{
+  background-color: #505050;
+}
+
