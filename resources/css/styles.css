@@ -448,7 +448,7 @@ nav{
   /* padding-left: 0; */
 
 }
-.nav_list:first-child{
+.nav_list:hover{
   background-color: #505050;
 }
 
@@ -601,4 +601,66 @@ nav{
 .top_product_des p:nth-child(2) span:nth-child(2){
   background-color: #ffecb7;
   padding: 0.5rem;
+}
+
+
+/* ======================== */
+/* LATEST ARTICLE SECTION */
+/* ======================== */
+
+.latest_articles{
+  background-color: #fff;
+}
+.latest_article_title{
+}
+.latest_article_title h2{
+  position: relative;
+  font-size: 2.5rem;
+}
+.article_span{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 0.3rem;
+  width: 81%;
+  background-color: #ebebeb;
+}
+.article_des{
+  padding: 3.5rem;
+}
+.article_des h3{
+  font-size: 2.2rem;
+  margin-top: 1.6rem;
+}
+.article_des p:nth-child(2){
+  font-size: 1.6rem;
+  margin-top: 1rem;
+}
+.article_des p:nth-child(3){
+  margin-top: 1.8rem;
+  font-size: 2rem;
+}
+.article_des button{
+  background-color: #c0c0c0;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  padding: 1.5rem 2.2rem;
+  cursor: pointer;
+  margin-top: 1.7rem;
+}
+.article_des button:active{
+  transform: scale(0.98);
+}
+.article_des button:hover{
+  background-color: #8c8989;
+}
+
+.latest_article_body{
+  margin-top: 3.3rem;
+
+}
+.latest_article_item{
+  width: 23.5%;
+  background-color: #f8f8f8;
 }
