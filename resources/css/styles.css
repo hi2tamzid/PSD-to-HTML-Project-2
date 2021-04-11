@@ -541,3 +541,64 @@ nav{
   background-color: #f6f6f6;
 }
 
+/* ======================== */
+/* SALES AD SECTION */
+/* ======================== */
+
+.season_sale_ad{
+  background-color: #8c8c8c;
+  color: white;
+  padding: 8rem 0;
+}
+.season_sale_ad h2{
+  font-size: 5.2rem;
+  text-align: center;
+  line-height: 0.9;
+}
+.season_sale_ad h2 span{
+  font-size: 3.6rem;
+  font-weight: var(--light);
+}
+
+/* ======================== */
+/* PRODUCT CATEGORY SECTION */
+/* ======================== */
+
+.product_category{
+  background-color: #fff;
+  color: #666666;
+  padding: 6rem 0;
+}
+.product_category h3{
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+  font-weight: var(--regular);
+}
+.product_category p{
+  font-size: 2rem;
+}
+.top_product_category{
+  display: flex;
+  padding-bottom: 1.5rem;
+}
+.top_product_des{
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.top_product_des p:nth-child(2){
+  font-weight: var(--bold);
+}
+.star{
+  color: #ffcc33;
+}
+.grey_star{
+  color: #cccccc;
+}
+
+.product_category div div:last-child .top_product_des p:nth-child(2) span:nth-child(1){
+  text-decoration: line-through;
+}
+.top_product_des p:nth-child(2) span:nth-child(2){
+  background-color: #ffecb7;
+  padding: 0.5rem;
+}
