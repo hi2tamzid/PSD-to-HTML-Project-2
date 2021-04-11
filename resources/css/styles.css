@@ -664,3 +664,74 @@ nav{
   width: 23.5%;
   background-color: #f8f8f8;
 }
+
+/* ======================== */
+/* FOOTER SECTION */
+/* ======================== */
+
+footer{
+  background-color: #606060;
+  color: #fff;
+}
+.footer_item{
+  width: 22%;
+}
+.footer_item p,
+.footer_item li{
+  font-size: 1.8rem;
+  font-weight: var(--light);
+  line-height: 1.6;
+  
+}
+.footer_item p, 
+.footer_item ul{
+  padding: 2rem 0;
+}
+.footer_item li{
+  list-style-position: inside;
+  list-style-type: none;
+}
+.footer_item li:before{
+  content:' \002bc8';
+  padding-right: 0.5rem;
+}
+.footer_item h3{
+  font-size: 2.4rem;
+  font-weight: var(--regular);
+}
+.footer_form{
+  font-size: 0;
+}
+.footer_form input{
+  outline: none;
+  border: 0;
+  padding: 1.5rem;
+}
+.footer_form input[type="email"]{
+  background-color: #4d4d4d;
+  color: #fff;
+  width: 100%;
+}
+.footer_form input[type="email"]::placeholder{
+  color: #fff;
+  opacity: 0.4;
+  font-size: 1.8rem;
+}
+.footer_form input[type="submit"]{
+  color: #fff;
+  background-color: #3acf87;
+  cursor: pointer;
+}
+
+.footer_logo{
+  width: 60%;
+}
+
+.footer_bottom{
+  background-color: #505050;
+  padding: 1.4rem 0;
+}
+.footer_bottom p{
+  font-size: 1.8rem;
+  opacity: 0.5;
+}
